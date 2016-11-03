@@ -1,0 +1,23 @@
+readme.txt
+========================================================================
+Question1:
+1)compile hr-timer.c with "gcc -std=gnu99 hr-timer.c" command in the terminal
+2)run a.out executable with "./a.out" command in the terminal
+3)"make clean" command if compiled files need to be removed
+P.S. for comments on Q1 please refer to hr-timer.c
+========================================================================
+
+========================================================================
+Question2-5:
+1)compile main.c with "make" command in the terminal
+2)run executable with "make run" command in the terminal
+3)"make clean" command if compiled files need to be removed
+========================================================================
+
+========================================================================
+Measurements:
+Average cost of minimal funcCall minus forloop overhead:0.829867 nano seconds
+Average cost of minimal sysCall minus forloop overhead:0.908742 nano seconds
+Average cost of 1 process context switch:899.692120 nano seconds
+Average cost of 1 thread context switch:579.569050 nano seconds
+========================================================================
